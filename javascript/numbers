@@ -28,3 +28,8 @@ NaN; // result of e.g. 0/0
 // There are a lot more things you can do with Math
 Math.PI; // = 3.141592653589793
 Math.floor(1.618); // = 1
+Math.random(); //this will generate a random number
+Math.min(1, 5, 8887, -88); // = -88 will return since Math.min returns the lowest number out of a set
+Math.max(56, 78, 63, 90, 10); // = 90 will return since Math.max does the basic opposite of Math.min
+Math.celi(5.9); // = 6, celi rounds up
+Math.round(4.2); // = 4, it rounds to the closet integer

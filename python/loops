@@ -1,0 +1,23 @@
+#loops are used to repeat parts of your code.
+#There are two main ways to loop in Python,
+#Using a FOR loop and a WHILE loop
+
+#a for loop is written like this
+for i in range(1,10):
+    print(i)        
+
+#make sure to add a comma in between your numbers and a colon at the end of the initial line.
+#the range function is exclusive therefore the output would be numbers 1 through 9 not including 10.
+
+#a while loop is written as follows
+x = 10
+y = 0
+while x > y:
+    print("while loop example")
+    y += 1  #this iterates variable y every time the loop is runned (same as writing y = y + 1)
+  
+#the result would be outputting "while loop example" ten times,
+#until x is no longer greater than y
+
+#be sure to familiarize yourself with the BREAK and CONTINUE statements as well, 
+#as they are vital for mastering python's loop control flow.

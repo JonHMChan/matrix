@@ -12,8 +12,8 @@ class Fruit:  # class names should always be capitalized
         else:
             return "The fruit isn't ready yet"
             
-class Watermelon(Fruit):  # The new class inherits everythin from the Fruit class
-    bio = "watermelon"  #  overwrite the bio attribute for the watermelon class
+class Watermelon(Fruit):  # The new class inherits everything from the Fruit class
+    bio = "watermelon"    #  overwrite the bio attribute for the watermelon class
     
 #To make objects simply assign the class to a variable.
 

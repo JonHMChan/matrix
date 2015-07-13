@@ -1,4 +1,6 @@
 #the def keyword is used to make a function in python.
+#code that is part of the function needs to be indented four spaces
+
 def first_hello():
     name = str(input("What is your name? "))
     print("Hello {}".format(name))

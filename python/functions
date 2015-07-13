@@ -1,0 +1,14 @@
+#the def keyword is used to make a function in python.
+def first_hello():
+    name = str(input("What is your name? "))
+    print("Hello {}".format(name))
+    
+#functions can take arguments as well.
+def second_hello(name):
+    print("Hello {}".format(name))
+    
+#to call a function simply simply type the name of the function
+#followed by its parameter(s) (if it takes any).
+
+first_hello()  
+second_hello("Samuel")  # since we have to pass a string for the name argument

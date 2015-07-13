@@ -1,0 +1,31 @@
+#Everything in python is considered an object.
+#To create your own objects you first need to create a class
+#which can be done as follows. Remember to indent!
+
+class Fruit:  # class names should always be capitalized
+    bio = "fruit"  # this is a class attribute
+        
+    def ready(self, color):  # All methods in a class need the self argument
+        self.color = color
+        if self.color == "green":
+            return "The fruit is ripe."
+        else:
+            return "The fruit isn't ready yet"
+            
+class Watermelon(Fruit):  # The new class inherits everythin from the Fruit class
+    bio = "watermelon"  #  overwrite the bio attribute for the watermelon class
+    
+#To make objects simply assign the class to a variable.
+
+fruit = Fruit()
+watermelon = Watermelon()
+
+#Access object attributes as follows
+
+print(fruit.bio)  # prints out "fruit"
+print(watermelon.bio)  # prints out "watermelon"
+
+#To call object methods do
+
+print(watermelon.ready("green"))  # should print out "The fruit is ripe". 
+                                  # remember Watermelon inherited the ready method from Fruit.

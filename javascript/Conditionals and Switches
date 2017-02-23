@@ -1,0 +1,21 @@
+/* If else statements
+ * this Math.Random comparison will generate a random number and depending on the outcome,
+ * it will print out different things to the console.
+ */
+  var calc = Math.Random();
+      if (calc <= 0.50) {
+          console.log("Its less than .50");
+        }
+      if (calc == 0.51) {
+        //making this special since its right on the dot.
+          console.log("It\'s exactly .51!!");
+        }
+      if(calc <= .52) {
+          console.log("Its greater than or equal to .52");
+        }
+      else{
+          return false;
+        };
+
+
+    
